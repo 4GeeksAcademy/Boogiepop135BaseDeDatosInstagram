@@ -1,0 +1,1 @@
+posts: Mapped[list['Post']] = relationship(back_populates='usuario', cascade='all, delete-orphan', lazy='dynamic')
